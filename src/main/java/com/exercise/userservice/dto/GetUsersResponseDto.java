@@ -2,7 +2,7 @@ package com.exercise.userservice.dto;
 
 import java.util.List;
 
-public class GetAllUsersResponseDto {
+public class GetUsersResponseDto {
     private boolean result;
     private List<UserDto> users;
 

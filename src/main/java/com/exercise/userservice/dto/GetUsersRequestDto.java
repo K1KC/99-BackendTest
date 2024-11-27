@@ -1,6 +1,6 @@
 package com.exercise.userservice.dto;
 
-public class GetAllUsersRequestDto {
+public class GetUsersRequestDto {
     private Integer pageNum;
     private Integer pageSize;
 

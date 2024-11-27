@@ -2,7 +2,7 @@ package com.exercise.publicapi.dto;
 
 import com.exercise.userservice.dto.UserDto;
 
-public class CreateUserResponseDto {
+public class CreatePublicUserResponseDto {
     private UserDto user;
 
     public UserDto getUser() {

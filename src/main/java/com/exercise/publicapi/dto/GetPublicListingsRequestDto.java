@@ -1,7 +1,7 @@
-package com.exercise.listingservice.dto;
+package com.exercise.publicapi.dto;
 
 
-public class GetListingsRequestDto {
+public class GetPublicListingsRequestDto {
 
     private Integer userId;
     private Integer pageNum;

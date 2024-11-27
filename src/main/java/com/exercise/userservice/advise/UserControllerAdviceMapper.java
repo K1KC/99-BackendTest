@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.client.HttpClientErrorException;
 
-@ControllerAdvice("userServiceAdvice")
-public class ControllerAdviceMapper {
+@ControllerAdvice("userControllerAdvice")
+public class UserControllerAdviceMapper {
 
     @ExceptionHandler({ConstraintViolationException.class, HttpClientErrorException.class,
             MethodArgumentNotValidException.class})

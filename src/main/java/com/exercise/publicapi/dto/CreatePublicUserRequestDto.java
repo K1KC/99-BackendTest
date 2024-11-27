@@ -2,7 +2,8 @@ package com.exercise.publicapi.dto;
 
 import jakarta.validation.constraints.NotBlank;
 
-public class CreateUserRequestDto {
+public class CreatePublicUserRequestDto {
+
     @NotBlank
     private String name;
 

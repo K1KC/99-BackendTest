@@ -4,17 +4,8 @@ import com.exercise.userservice.dto.UserDto;
 
 import java.util.List;
 
-public class GetUsersResponseDto {
-    private boolean result;
+public class GetPublicUsersResponseDto {
     private List<UserDto> users;
-
-    public boolean isResult() {
-        return result;
-    }
-
-    public void setResult(boolean result) {
-        this.result = result;
-    }
 
     public List<UserDto> getUsers() {
         return users;
